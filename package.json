@@ -1,0 +1,49 @@
+{
+  "name": "rails-7-template",
+  "author": "Michael Ng",
+  "email": "michaelnch91@gmail.com",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "3.5.10",
+    "@babel/preset-react": "7.16.7",
+    "@headlessui/react": "1.5.0",
+    "@heroicons/react": "1.0.6",
+    "@rails/webpacker": "6.0.0-rc.6",
+    "@tailwindcss/line-clamp": "0.3.1",
+    "babel-plugin-macros": "3.1.0",
+    "babel-plugin-transform-react-remove-prop-types": "0.4.24",
+    "chart.js": "3.7.1",
+    "classnames": "2.3.1",
+    "core-js": "3.21.1",
+    "date-fns": "2.28.0",
+    "graphql": "16.3.0",
+    "lodash": "4.17.21",
+    "prettier": "2.5.1",
+    "prettier-plugin-tailwindcss": "0.1.8",
+    "prop-types": "15.8.1",
+    "qrcode": "1.5.0",
+    "react": "17.0.2",
+    "react-chartjs-2": "4.0.1",
+    "react-dom": "17.0.2",
+    "react-helmet": "6.1.0",
+    "react-router-dom": "6",
+    "react-virtual": "2.10.4",
+    "webpack": "5.71.0",
+    "webpack-cli": "4.9.2"
+  },
+  "version": "0.1.0",
+  "babel": {
+    "presets": [
+      "./node_modules/@rails/webpacker/package/babel/preset.js"
+    ]
+  },
+  "devDependencies": {
+    "@webpack-cli/serve": "^1.6.1",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": false
+  }
+}

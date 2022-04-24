@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="en" class="bg-slate-100 antialiased w-screen h-full">
+  <head>
+    <title>SmolURL - Shorten your URLs & Track Click Events!</title>
+    <%= render "layouts/meta" %>
+
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= yield :head %>
+    <%= stylesheet_link_tag "tailwind", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+
+    <%= render "layouts/favicon" %>
+  </head>
+
+  <body class="h-full">
+    <%= yield %>
+    <%= yield :tail %>
+  </body>
+</html>
